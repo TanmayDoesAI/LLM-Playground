@@ -1,5 +1,5 @@
 name: "Issue Request"
-description: Create a new ticket for a new DSA issue request
+description: Create a new ticket for a new  issue request
 title: "[ISSUE] - <title>"
 labels: [
   "good first issue",
@@ -16,7 +16,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: DSA_Problem
+    id: issue_Problem
     attributes:
       label: "Issue Examples"
       description: Indicate here the examples that the issue is related to.
