@@ -1,24 +1,24 @@
-name: "Feature Request"
-description: Create a new ticket for a new feature request
-title: "[REQUEST] - <title>"
+name: "Issue Request"
+description: Create a new ticket for a new  issue request
+title: "[ISSUE] - <title>"
 labels: [
-  "new first issue", "hacktoberfest"
+  "good first issue",
+  "enhancement",
+  "hacktoberfest",
+  
 ]
 body:
   - type: textarea
-    id: Description of Issue
+    id: Description
     attributes:
       label: "Description"
-      description: Provide a brief explanation of the feature
-      placeholder: Describe in a few lines your feature request
+      description: Provide a detailed description of the issue. Include any relevant information, such as steps to reproduce the issue, expected behavior, and actual behavior.
     validations:
       required: true
   - type: textarea
-    id: basic_example
+    id: issue_Problem
     attributes:
-      label: "Basic Example"
-      description: Indicate here some basic examples of your feature.
-      placeholder: A few specific words about your feature request.
+      label: "Issue Examples"
+      description: Indicate here the examples that the issue is related to.
     validations:
-      required: false
-  
+      required: true
