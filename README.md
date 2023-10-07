@@ -62,12 +62,5 @@ To get started with contributing, please read our [Contribution Guidelines](CONT
 
 We welcome contributions from individuals of all expertise levels. Let's build a welcoming community around LLM projects together!
 
-<h2 align="center"><b>Contributors</b></h2>
-   
-<p align="center">
-<a href="https://github.com/TanmayDoesAI/LLM-Playground/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=TanmayDoesAI/LLM-Playground" />
-</a>
-
 Happy coding!
 
