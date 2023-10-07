@@ -21,4 +21,4 @@ body:
       label: "Issue Examples"
       description: Indicate here the examples that the issue is related to.
     validations:
-      required: true
+      required: false
